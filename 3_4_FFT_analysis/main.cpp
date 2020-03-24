@@ -13,7 +13,7 @@ int main(){
     for(i = 0; i < sample; i++){
         Aout = Ain;
         ADCdata[i] = Ain;
-        wait(1 ./ sample);
+        wait(1./sample);
     }
     for(i = 0; i < sample; i++){
         pc.printf("%1.3f\r\n", ADCdata[i]);

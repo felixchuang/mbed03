@@ -1,4 +1,4 @@
-#inclide "mbed.h"
+#include "mbed.h"
 
 PwmOut PWM1(D6);
 AnalogIn Ain(A0);
